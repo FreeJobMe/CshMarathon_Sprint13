@@ -1,6 +1,8 @@
 # CshMarathon_Sprint13
  C# Marathon Sprint13
+ 
 Sprint 13. Tasks
+
 All the views are based only on the Razor syntax.
 1.	Change Index view:
 ![Index](/images/1.png)
@@ -8,27 +10,32 @@ All the views are based only on the Razor syntax.
 2)	Add navy bar “Sprint Tasks” that redirect to page “Sprint Tasks”;
 3)	‘Our project’ is a link to your project on Git.
 
-2.	View ‘Sprint Tasks’:
+2.	View ‘SprintTasks’:
+![SprintTasks](/images/2.png)
  
 The page contains navigation bars  that redirect the user to the appropriate view-pages.
 
 3.	View ‘Greetings’:
+![Greetings](/images/3.png)
  
 1)	Messages are placed as variables;
 2)	Use DateTime methods;
 3)	Use branching to send the greeting (evening or morning).
 
 4.	View ‘ProductInfo’
+![ProductInfo](/images/4.png)
  
 1)	Create the class Product with properties: Name (string), Price (double)
 2)	Use this class to create the list of products just within the view.
 3)	Use loop to output the information on the page.
 
 5.	View ‘SuperMarkets’
+![SuperMarkets](/images/5.png)
  
 View page receives the list of supermarkets via ViewBag and output it with their quantity.
 
 6.	View ‘ShoppingList’
+![ShoppingList](/images/6.png)
  
 View page receives the model dictionary from controller. Dictionary contains name of product (key), quantity (value).
 View contains partial view ‘TimeToBuy’
@@ -41,6 +48,7 @@ You have to:
 4)	inject dependencies into view to output the time of shopping for tomorrow.
 
 8.	View ‘ShoppingCart’
+![ShoppingCart](/images/7.png)
  
 The page contains controls that you have to define using html-helpers:
 1)	Input boxes;
@@ -50,5 +58,6 @@ The page contains controls that you have to define using html-helpers:
 5)	‘submit’ input.
 You should consider both (HttpPost and HttpGet) controller methods for this view.
 As the result of submit user might receive the message:
+![Result](/images/8.png)
  
 
