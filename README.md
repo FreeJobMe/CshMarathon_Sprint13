@@ -4,7 +4,6 @@ Sprint 13. Tasks
 All the views are based only on the Razor syntax.
 1.	Change Index view:
 ![Index](/images/1.png)
-Format: ![Alt Text](url)
 1)	Change the title of tab;
 2)	Add navy bar “Sprint Tasks” that redirect to page “Sprint Tasks”;
 3)	‘Our project’ is a link to your project on Git.
